@@ -55,11 +55,11 @@ MCP_SERVERS = [
 ]
 
 BEDROCK_MODEL_CONFIG = {
-    "model_id": "arn:aws:bedrock:ap-south-1:680918385129:inference-profile/apac.anthropic.claude-sonnet-4-20250514-v1:0",
+    "model_id": "arn:aws:bedrock:ap-south-1:099064381286:inference-profile/apac.anthropic.claude-sonnet-4-20250514-v1:0",
     "region_name": AWS_REGION,
-    "temperature": 0.3,
-    "max_tokens": 1024,
-    "top_p": 0.9
+    "temperature": 0.2,
+    "max_tokens": 2000,
+    "top_p": 0.7
 }
 
 
